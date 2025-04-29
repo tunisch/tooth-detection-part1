@@ -1,0 +1,40 @@
+train: data/images/train
+val: data/images/val
+test: data/images/test
+
+# number of classes
+
+nc: 32
+names:
+  0: tooth_11
+  1: tooth_12
+  2: tooth_13
+  3: tooth_14
+  4: tooth_15
+  5: tooth_16
+  6: tooth_17
+  7: tooth_18
+  8: tooth_21
+  9: tooth_22
+  10: tooth_23
+  11: tooth_24
+  12: tooth_25
+  13: tooth_26
+  14: tooth_27
+  15: tooth_28
+  16: tooth_31
+  17: tooth_32
+  18: tooth_33
+  19: tooth_34
+  20: tooth_35
+  21: tooth_36
+  22: tooth_37
+  23: tooth_38
+  24: tooth_41
+  25: tooth_42
+  26: tooth_43
+  27: tooth_44
+  28: tooth_45
+  29: tooth_46
+  30: tooth_47
+  31: tooth_48
