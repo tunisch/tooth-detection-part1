@@ -1,8 +1,7 @@
 <div align="center">
-  <p>
-    <a href="https://www.ultralytics.com/blog/all-you-need-to-know-about-ultralytics-yolo11-and-its-applications" target="_blank">
-      <img width="100%" src="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png" alt="Ultralytics YOLO banner"></a>
-  </p>
+  <a href="https://ultralytics.com/yolo" target="_blank">
+    <img width="1024" src="https://raw.githubusercontent.com/ultralytics/assets/main/yolov5/v70/splash.png">
+  </a>
 
 [中文](https://docs.ultralytics.com/zh) | [한국어](https://docs.ultralytics.com/ko) | [日本語](https://docs.ultralytics.com/ja) | [Русский](https://docs.ultralytics.com/ru) | [Deutsch](https://docs.ultralytics.com/de) | [Français](https://docs.ultralytics.com/fr) | [Español](https://docs.ultralytics.com/es) | [Português](https://docs.ultralytics.com/pt) | [Türkçe](https://docs.ultralytics.com/tr) | [Tiếng Việt](https://docs.ultralytics.com/vi) | [العربية](https://docs.ultralytics.com/ar)
 
@@ -20,25 +19,7 @@
 
 Ultralytics YOLOv5 🚀 is a cutting-edge, state-of-the-art (SOTA) computer vision model developed by [Ultralytics](https://www.ultralytics.com/). Based on the [PyTorch](https://pytorch.org/) framework, YOLOv5 is renowned for its ease of use, speed, and accuracy. It incorporates insights and best practices from extensive research and development, making it a popular choice for a wide range of vision AI tasks, including [object detection](https://docs.ultralytics.com/tasks/detect/), [image segmentation](https://docs.ultralytics.com/tasks/segment/), and [image classification](https://docs.ultralytics.com/tasks/classify/).
 
-We hope the resources here help you get the most out of YOLOv5. Please browse the [YOLOv5 Docs](https://docs.ultralytics.com/yolov5/) for detailed information, raise an issue on [GitHub](https://github.com/ultralytics/yolov5/issues/new/choose) for support, and join our [Discord community](https://discord.com/invite/ultralytics) for questions and discussions!
-
-To request an Enterprise License, please complete the form at [Ultralytics Licensing](https://www.ultralytics.com/license).
-
-<div align="center">
-  <a href="https://github.com/ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-github.png" width="2%" alt="Ultralytics GitHub"></a>
-  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="2%" alt="space">
-  <a href="https://www.linkedin.com/company/ultralytics/"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-linkedin.png" width="2%" alt="Ultralytics LinkedIn"></a>
-  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="2%" alt="space">
-  <a href="https://twitter.com/ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-twitter.png" width="2%" alt="Ultralytics Twitter"></a>
-  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="2%" alt="space">
-  <a href="https://youtube.com/ultralytics?sub_confirmation=1"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-youtube.png" width="2%" alt="Ultralytics YouTube"></a>
-  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="2%" alt="space">
-  <a href="https://www.tiktok.com/@ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-tiktok.png" width="2%" alt="Ultralytics TikTok"></a>
-  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="2%" alt="space">
-  <a href="https://ultralytics.com/bilibili"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-bilibili.png" width="2%" alt="Ultralytics BiliBili"></a>
-  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="2%" alt="space">
-  <a href="https://discord.com/invite/ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-discord.png" width="2%" alt="Ultralytics Discord"></a>
-</div>
+We hope the resources here help you get the most out of YOLOv5. Please browse the [YOLOv5 Docs](https://docs.ultralytics.com/yolov5/) for detailed information, raise an issue on [GitHub](https://github.com/ultralytics/yolov5/issues/new/choose) for support. 
 
 </div>
 <br>
@@ -95,7 +76,7 @@ import torch
 model = torch.hub.load("ultralytics/yolov5", "yolov5s")  # Default: yolov5s
 
 # Define the input image source (URL, local file, PIL image, OpenCV frame, numpy array, or list)
-img = "https://ultralytics.com/images/zidane.jpg"  # Example image
+img = "https://ultralytics.com/images/dental.jpg"  # Example image
 
 # Perform inference (handles batching, resizing, normalization automatically)
 results = model(img)
@@ -114,17 +95,6 @@ results.save()  # Save results to runs/detect/exp
 The `detect.py` script runs inference on various sources. It automatically downloads [models](https://github.com/ultralytics/yolov5/tree/master/models) from the latest YOLOv5 [release](https://github.com/ultralytics/yolov5/releases) and saves the results to the `runs/detect` directory.
 
 ```bash
-# Run inference using a webcam
-python detect.py --weights yolov5s.pt --source 0
-
-# Run inference on a local image file
-python detect.py --weights yolov5s.pt --source img.jpg
-
-# Run inference on a local video file
-python detect.py --weights yolov5s.pt --source vid.mp4
-
-# Run inference on a screen capture
-python detect.py --weights yolov5s.pt --source screen
 
 # Run inference on a directory of images
 python detect.py --weights yolov5s.pt --source path/to/images/
@@ -132,18 +102,6 @@ python detect.py --weights yolov5s.pt --source path/to/images/
 # Run inference on a text file listing image paths
 python detect.py --weights yolov5s.pt --source list.txt
 
-# Run inference on a text file listing stream URLs
-python detect.py --weights yolov5s.pt --source list.streams
-
-# Run inference using a glob pattern for images
-python detect.py --weights yolov5s.pt --source 'path/to/*.jpg'
-
-# Run inference on a YouTube video URL
-python detect.py --weights yolov5s.pt --source 'https://youtu.be/LNwODJXcvt4'
-
-# Run inference on an RTSP, RTMP, or HTTP stream
-python detect.py --weights yolov5s.pt --source 'rtsp://example.com/media.mp4'
-```
 
 </details>
 
@@ -482,7 +440,6 @@ Get started quickly with our pre-configured environments. Click the icons below 
 
 We welcome your contributions! Making YOLOv5 accessible and effective is a community effort. Please see our [Contributing Guide](https://docs.ultralytics.com/help/contributing/) to get started. Share your feedback through the [YOLOv5 Survey](https://www.ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). Thank you to all our contributors for making YOLOv5 better!
 
-[![Ultralytics open-source contributors](https://raw.githubusercontent.com/ultralytics/assets/main/im/image-contributors.png)](https://github.com/ultralytics/yolov5/graphs/contributors)
 
 ## 📜 License
 
