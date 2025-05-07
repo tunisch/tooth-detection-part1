@@ -194,6 +194,11 @@ def train(hyp, opt, device, callbacks):
         data_dict = loggers.remote_dataset
         if resume:  # If resuming runs from remote artifact
             weights, epochs, hyp, batch_size = opt.weights, opt.epochs, opt.hyp, opt.batch_size
+    # YAML dosyasını okuma ve debug için ekleme
+    with open("C:\\Users\\tunah\\yolov5\\data\\data.yaml", "r") as f:
+        data = yaml.safe_load(f)
+        print("YAML Dosyasının İçeriği:", data)  # Debug: Dosya içeriğini yazdırın
+        
 
     # Config
     plots = not evolve and not opt.noplots  # create plots
@@ -201,6 +206,7 @@ def train(hyp, opt, device, callbacks):
     init_seeds(opt.seed + 1 + RANK, deterministic=True)
     with torch_distributed_zero_first(LOCAL_RANK):
         data_dict = data_dict or check_dataset(data)  # check if None
+        print("data_dict içeriği:", data_dict)  # Debug: data_dict'i yazdır
     train_path, val_path = data_dict["train"], data_dict["val"]
     nc = 1 if single_cls else int(data_dict["nc"])  # number of classes
     names = {0: "item"} if single_cls and len(data_dict["names"]) != 1 else data_dict["names"]  # class names
