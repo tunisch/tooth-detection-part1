@@ -122,15 +122,14 @@ Our key integrations with leading AI platforms extend the functionality of Ultra
 <br>
 <br>
 
-<div align="center">
+<div align="center" style="display: flex; justify-content: center; align-items: center; gap: 20px;">
   <a href="https://www.makesense.ai/">
-    <img src="makesensei_ai.png" width="15%" alt="space"></a>
-  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="15%"  alt="space">
-    <img src="https://github.com/ultralytics/assets/raw/main/partners/logo-wb.png" width="10%" alt="Weights & Biases logo"></a>
+    <img src="makesensei_ai.png" width="15%" alt="Makesense.ai"></a>
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="15%" alt="space">
-  <a href="[TensorBoard.png](https://www.tensorflow.org/tensorboard?hl=tr)">
+  <img src="https://github.com/ultralytics/assets/raw/main/partners/logo-wb.png" width="10%" alt="Weights & Biases logo">
+  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="15%" alt="space">
+  <a href="https://www.tensorflow.org/tensorboard?hl=tr">
     <img src="TensorBoard.png" width="15%" alt="TensorBoard logo"></a>
-  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="15%" height="0" alt="space">
 </div>
 
 |                                                       Make Sense AI 🌟                                                        |                                                          Weights & Biases                                                           |                                                                              TensorBoard                                                                              
