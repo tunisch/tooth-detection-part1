@@ -124,18 +124,18 @@ Our key integrations with leading AI platforms extend the functionality of Ultra
 
 <div align="center">
   <a href="https://www.makesense.ai/">
-    <img src="makesensei_ai.png" width="10%" alt="space"></a>
-  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="15%" height="0" alt="space">
+    <img src="makesensei_ai.png" width="15%" alt="space"></a>
+  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="15%"  alt="space">
     <img src="https://github.com/ultralytics/assets/raw/main/partners/logo-wb.png" width="10%" alt="Weights & Biases logo"></a>
-  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="15%" height="0" alt="space">
-  <a href="https://docs.ultralytics.com/integrations/comet/">
-    <img src="https://github.com/ultralytics/assets/raw/main/partners/logo-comet.png" width="10%" alt="Comet ML logo"></a>
+  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="15%" alt="space">
+  <a href="[TensorBoard.png](https://www.tensorflow.org/tensorboard?hl=tr)">
+    <img src="TensorBoard.png" width="15%" alt="TensorBoard logo"></a>
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="15%" height="0" alt="space">
 </div>
 
-|                                                       Make Sense AI 🌟                                                        |                                                          Weights & Biases                                                           |                                                                              Comet                                                                              
+|                                                       Make Sense AI 🌟                                                        |                                                          Weights & Biases                                                           |                                                                              TensorBoard                                                                              
 | :-----------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------: | 
-| Streamline YOLO workflows: Label, train, and deploy effortlessly with [Make Sense AI](https://www.makesense.ai/). Try now! | Track experiments, hyperparameters, and results with [Weights & Biases](https://docs.ultralytics.com/integrations/weights-biases/). | Free forever, [Comet ML](https://docs.ultralytics.com/integrations/comet/) lets you save YOLO models, resume training, and interactively visualize predictions. 
+| Streamline YOLO workflows: Label, train, and deploy effortlessly with [Make Sense AI](https://www.makesense.ai/). Try now! | Track experiments, hyperparameters, and results with [Weights & Biases](https://docs.ultralytics.com/integrations/weights-biases/). | Free forever, [TensorBoard](https://www.tensorflow.org/tensorboard?hl=tr) lets you save YOLO models, resume training, and interactively visualize predictions. 
 
 
 ## 🤔 Why YOLOv5?
