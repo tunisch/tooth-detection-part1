@@ -120,8 +120,6 @@ Our key integrations with leading AI platforms extend the functionality of Ultra
     <img width="100%" src="Integrations.png" alt="Ultralytics active learning integrations">
 </a>
 <br>
-<br>
-
 <div align="center" style="display: flex; justify-content: center; align-items: center; gap: 20px;">
   <a href="https://www.makesense.ai/">
     <img src="makesensei_ai.png" width="15%" alt="Makesense.ai"></a>
