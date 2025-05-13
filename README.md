@@ -108,35 +108,13 @@ python train.py --data coco.yaml --epochs 300 --weights '' --cfg yolov5l.yaml --
 python train.py --data coco.yaml --epochs 300 --weights '' --cfg yolov5x.yaml --batch-size 16
 ```
 
-<img width="800" src="https://user-images.githubusercontent.com/26833433/90222759-949d8800-ddc1-11ea-9fa1-1c97eed2b963.png" alt="YOLOv5 Training Results">
-
-</details>
-
-<details open>
-<summary>Tutorials</summary>
-
-- **[Train Custom Data](https://docs.ultralytics.com/yolov5/tutorials/train_custom_data/)** 🚀 **RECOMMENDED**: Learn how to train YOLOv5 on your own datasets.
-- **[Tips for Best Training Results](https://docs.ultralytics.com/guides/model-training-tips/)** ☘️: Improve your model's performance with expert tips.
-- **[Multi-GPU Training](https://docs.ultralytics.com/yolov5/tutorials/multi_gpu_training/)**: Speed up training using multiple GPUs.
-- **[PyTorch Hub Integration](https://docs.ultralytics.com/yolov5/tutorials/pytorch_hub_model_loading/)** 🌟 **NEW**: Easily load models using PyTorch Hub.
-- **[Model Export (TFLite, ONNX, CoreML, TensorRT)](https://docs.ultralytics.com/yolov5/tutorials/model_export/)** 🚀: Convert your models to various deployment formats like [ONNX](https://onnx.ai/) or [TensorRT](https://developer.nvidia.com/tensorrt).
-- **[NVIDIA Jetson Deployment](https://docs.ultralytics.com/guides/nvidia-jetson/)** 🌟 **NEW**: Deploy YOLOv5 on [NVIDIA Jetson](https://developer.nvidia.com/embedded-computing) devices.
-- **[Test-Time Augmentation (TTA)](https://docs.ultralytics.com/yolov5/tutorials/test_time_augmentation/)**: Enhance prediction accuracy with TTA.
-- **[Model Ensembling](https://docs.ultralytics.com/yolov5/tutorials/model_ensembling/)**: Combine multiple models for better performance.
-- **[Model Pruning/Sparsity](https://docs.ultralytics.com/yolov5/tutorials/model_pruning_and_sparsity/)**: Optimize models for size and speed.
-- **[Hyperparameter Evolution](https://docs.ultralytics.com/yolov5/tutorials/hyperparameter_evolution/)**: Automatically find the best training hyperparameters.
-- **[Transfer Learning with Frozen Layers](https://docs.ultralytics.com/yolov5/tutorials/transfer_learning_with_frozen_layers/)**: Adapt pretrained models to new tasks efficiently using [transfer learning](https://www.ultralytics.com/glossary/transfer-learning).
-- **[Architecture Summary](https://docs.ultralytics.com/yolov5/tutorials/architecture_description/)** 🌟 **NEW**: Understand the YOLOv5 model architecture.
-- **[Ultralytics HUB Training](https://www.ultralytics.com/hub)** 🚀 **RECOMMENDED**: Train and deploy YOLO models using Ultralytics HUB.
-- **[ClearML Logging](https://docs.ultralytics.com/yolov5/tutorials/clearml_logging_integration/)**: Integrate with [ClearML](https://clear.ml/) for experiment tracking.
-- **[Neural Magic DeepSparse Integration](https://docs.ultralytics.com/yolov5/tutorials/neural_magic_pruning_quantization/)**: Accelerate inference with DeepSparse.
-- **[Comet Logging](https://docs.ultralytics.com/yolov5/tutorials/comet_logging_integration/)** 🌟 **NEW**: Log experiments using [Comet ML](https://www.comet.com/site/).
+<img width="800" src="results_combined.png" alt="YOLOv5 Training Results">
 
 </details>
 
 ## 🧩 Integrations
 
-Our key integrations with leading AI platforms extend the functionality of Ultralytics' offerings, enhancing tasks like dataset labeling, training, visualization, and model management. Discover how Ultralytics, in collaboration with partners like [Weights & Biases](https://docs.ultralytics.com/integrations/weights-biases/), [Comet ML](https://docs.ultralytics.com/integrations/comet/), [Roboflow](https://docs.ultralytics.com/integrations/roboflow/), and [Intel OpenVINO](https://docs.ultralytics.com/integrations/openvino/), can optimize your AI workflow. Explore more at [Ultralytics Integrations](https://docs.ultralytics.com/integrations/).
+Our key integrations with leading AI platforms extend the functionality of Ultralytics' offerings, enhancing tasks like dataset labeling, training, visualization, and model management.
 
 <a href="https://docs.ultralytics.com/integrations/" target="_blank">
     <img width="100%" src="https://github.com/ultralytics/assets/raw/main/yolov8/banner-integrations.png" alt="Ultralytics active learning integrations">
@@ -146,10 +124,8 @@ Our key integrations with leading AI platforms extend the functionality of Ultra
 
 <div align="center">
   <a href="https://www.makesense.ai/">
-    <img src="![image](https://github.com/user-attachments/assets/6d6bfaab-87da-4e4d-ae3f-5122a612b9b4)
-" width="10%" alt="space"></a>
+    <img src="![image](https://github.com/user-attachments/assets/6d6bfaab-87da-4e4d-ae3f-5122a612b9b4)" width="10%" alt="space"></a>
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="15%" height="0" alt="space">
-  <a href="https://docs.ultralytics.com/integrations/weights-biases/">
     <img src="https://github.com/ultralytics/assets/raw/main/partners/logo-wb.png" width="10%" alt="Weights & Biases logo"></a>
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="15%" height="0" alt="space">
   <a href="https://docs.ultralytics.com/integrations/comet/">
@@ -163,12 +139,6 @@ Our key integrations with leading AI platforms extend the functionality of Ultra
 | :-----------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: |
 | Streamline YOLO workflows: Label, train, and deploy effortlessly with [Ultralytics HUB](https://hub.ultralytics.com/). Try now! | Track experiments, hyperparameters, and results with [Weights & Biases](https://docs.ultralytics.com/integrations/weights-biases/). | Free forever, [Comet ML](https://docs.ultralytics.com/integrations/comet/) lets you save YOLO models, resume training, and interactively visualize predictions. | Run YOLO inference up to 6x faster with [Neural Magic DeepSparse](https://docs.ultralytics.com/integrations/neural-magic/). |
 
-## ⭐ Ultralytics HUB
-
-Experience seamless AI development with [Ultralytics HUB](https://www.ultralytics.com/hub) ⭐, the ultimate platform for building, training, and deploying [computer vision](https://www.ultralytics.com/glossary/computer-vision-cv) models. Visualize datasets, train [YOLOv5](https://docs.ultralytics.com/models/yolov5/) and [YOLOv8](https://docs.ultralytics.com/models/yolov8/) 🚀 models, and deploy them to real-world applications without writing any code. Transform images into actionable insights using our cutting-edge tools and user-friendly [Ultralytics App](https://www.ultralytics.com/app-install). Start your journey for **Free** today!
-
-<a align="center" href="https://www.ultralytics.com/hub" target="_blank">
-<img width="100%" src="https://github.com/ultralytics/assets/raw/main/im/ultralytics-hub.png" alt="Ultralytics HUB Platform Screenshot"></a>
 
 ## 🤔 Why YOLOv5?
 
@@ -317,8 +287,6 @@ python export.py --weights yolov5s-cls.pt resnet50.pt efficientnet_b0.pt --inclu
 Get started quickly with our pre-configured environments. Click the icons below for setup details.
 
 <div align="center">
-  <a href="https://bit.ly/yolov5-paperspace-notebook" title="Run on Paperspace Gradient">
-    <img src="https://github.com/ultralytics/assets/releases/download/v0.0.0/logo-gradient.png" width="10%" /></a>
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="5%" alt="" />
   <a href="https://colab.research.google.com/github/ultralytics/yolov5/blob/master/tutorial.ipynb" title="Open in Google Colab">
     <img src="https://github.com/ultralytics/assets/releases/download/v0.0.0/logo-colab-small.png" width="10%" /></a>
@@ -329,8 +297,6 @@ Get started quickly with our pre-configured environments. Click the icons below 
   <a href="https://hub.docker.com/r/ultralytics/yolov5" title="Pull Docker Image">
     <img src="https://github.com/ultralytics/assets/releases/download/v0.0.0/logo-docker-small.png" width="10%" /></a>
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="5%" alt="" />
-  <a href="https://docs.ultralytics.com/yolov5/environments/aws_quickstart_tutorial/" title="AWS Quickstart Guide">
-    <img src="https://github.com/ultralytics/assets/releases/download/v0.0.0/logo-aws-small.png" width="10%" /></a>
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="5%" alt="" />
   <a href="https://docs.ultralytics.com/yolov5/environments/google_cloud_quickstart_tutorial/" title="GCP Quickstart Guide">
     <img src="https://github.com/ultralytics/assets/releases/download/v0.0.0/logo-gcp-small.png" width="10%" /></a>
@@ -339,11 +305,8 @@ Get started quickly with our pre-configured environments. Click the icons below 
 
 ## 📜 License
 
-Ultralytics provides two licensing options to meet different needs:
-
 - **AGPL-3.0 License**: An [OSI-approved](https://opensource.org/license/agpl-v3) open-source license ideal for academic research, personal projects, and testing. It promotes open collaboration and knowledge sharing. See the [LICENSE](https://github.com/ultralytics/yolov5/blob/master/LICENSE) file for details.
-- **Enterprise License**: Tailored for commercial applications, this license allows seamless integration of Ultralytics software and AI models into commercial products and services, bypassing the open-source requirements of AGPL-3.0. For commercial use cases, please contact us via [Ultralytics Licensing](https://www.ultralytics.com/license).
-
+  
 ## 📧 Contact
 
 For bug reports and feature requests related to YOLOv5, please visit [GitHub Issues](https://github.com/ultralytics/yolov5/issues). For general questions, discussions, and community support, join our [Discord server](https://discord.com/invite/ultralytics)!
