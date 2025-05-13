@@ -125,7 +125,7 @@ Our key integrations with leading AI platforms extend the functionality of Ultra
 <div align="center" style="display: flex; justify-content: center; align-items: center; gap: 20px;">
   <a href="https://www.makesense.ai/">
     <img src="makesensei_ai.png" width="15%" alt="Makesense.ai"></a>
-  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="15%" alt="space">
+  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="15%" style="margin-right: 20px; alt="space">
   <img src="https://github.com/ultralytics/assets/raw/main/partners/logo-wb.png" width="10%" alt="Weights & Biases logo">
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="15%" alt="space">
   <a href="https://www.tensorflow.org/tensorboard?hl=tr">
