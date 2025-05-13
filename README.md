@@ -112,28 +112,6 @@ python train.py --data coco.yaml --epochs 300 --weights '' --cfg yolov5x.yaml --
 
 </details>
 
-<details open>
-<summary>Tutorials</summary>
-
-- **[Train Custom Data](https://docs.ultralytics.com/yolov5/tutorials/train_custom_data/)** 🚀 **RECOMMENDED**: Learn how to train YOLOv5 on your own datasets.
-- **[Tips for Best Training Results](https://docs.ultralytics.com/guides/model-training-tips/)** ☘️: Improve your model's performance with expert tips.
-- **[Multi-GPU Training](https://docs.ultralytics.com/yolov5/tutorials/multi_gpu_training/)**: Speed up training using multiple GPUs.
-- **[PyTorch Hub Integration](https://docs.ultralytics.com/yolov5/tutorials/pytorch_hub_model_loading/)** 🌟 **NEW**: Easily load models using PyTorch Hub.
-- **[Model Export (TFLite, ONNX, CoreML, TensorRT)](https://docs.ultralytics.com/yolov5/tutorials/model_export/)** 🚀: Convert your models to various deployment formats like [ONNX](https://onnx.ai/) or [TensorRT](https://developer.nvidia.com/tensorrt).
-- **[NVIDIA Jetson Deployment](https://docs.ultralytics.com/guides/nvidia-jetson/)** 🌟 **NEW**: Deploy YOLOv5 on [NVIDIA Jetson](https://developer.nvidia.com/embedded-computing) devices.
-- **[Test-Time Augmentation (TTA)](https://docs.ultralytics.com/yolov5/tutorials/test_time_augmentation/)**: Enhance prediction accuracy with TTA.
-- **[Model Ensembling](https://docs.ultralytics.com/yolov5/tutorials/model_ensembling/)**: Combine multiple models for better performance.
-- **[Model Pruning/Sparsity](https://docs.ultralytics.com/yolov5/tutorials/model_pruning_and_sparsity/)**: Optimize models for size and speed.
-- **[Hyperparameter Evolution](https://docs.ultralytics.com/yolov5/tutorials/hyperparameter_evolution/)**: Automatically find the best training hyperparameters.
-- **[Transfer Learning with Frozen Layers](https://docs.ultralytics.com/yolov5/tutorials/transfer_learning_with_frozen_layers/)**: Adapt pretrained models to new tasks efficiently using [transfer learning](https://www.ultralytics.com/glossary/transfer-learning).
-- **[Architecture Summary](https://docs.ultralytics.com/yolov5/tutorials/architecture_description/)** 🌟 **NEW**: Understand the YOLOv5 model architecture.
-- **[Ultralytics HUB Training](https://www.ultralytics.com/hub)** 🚀 **RECOMMENDED**: Train and deploy YOLO models using Ultralytics HUB.
-- **[ClearML Logging](https://docs.ultralytics.com/yolov5/tutorials/clearml_logging_integration/)**: Integrate with [ClearML](https://clear.ml/) for experiment tracking.
-- **[Neural Magic DeepSparse Integration](https://docs.ultralytics.com/yolov5/tutorials/neural_magic_pruning_quantization/)**: Accelerate inference with DeepSparse.
-- **[Comet Logging](https://docs.ultralytics.com/yolov5/tutorials/comet_logging_integration/)** 🌟 **NEW**: Log experiments using [Comet ML](https://www.comet.com/site/).
-
-</details>
-
 ## 🧩 Integrations
 
 Our key integrations with leading AI platforms extend the functionality of Ultralytics' offerings, enhancing tasks like dataset labeling, training, visualization, and model management. Discover how Ultralytics, in collaboration with partners like [Weights & Biases](https://docs.ultralytics.com/integrations/weights-biases/), [Comet ML](https://docs.ultralytics.com/integrations/comet/), [Roboflow](https://docs.ultralytics.com/integrations/roboflow/), and [Intel OpenVINO](https://docs.ultralytics.com/integrations/openvino/), can optimize your AI workflow. Explore more at [Ultralytics Integrations](https://docs.ultralytics.com/integrations/).
