@@ -147,8 +147,8 @@ Our key integrations with leading AI platforms extend the functionality of Ultra
 <br>
 
 <div align="center">
-  <a href="https://www.ultralytics.com/hub">
-    <img src="https://github.com/ultralytics/assets/raw/main/partners/logo-ultralytics-hub.png" width="10%" alt="Ultralytics HUB logo"></a>
+  <a href="[https://www.ultralytics.com/hub](https://www.ultralytics.com/hub)">
+    <img src="[https://github.com/ultralytics/assets/raw/main/partners/logo-ultralytics-hub.png](https://miro.medium.com/v2/da:true/resize:fit:1200/0*iUZdA29_pQuKYrlp)" width="10%" alt="Makesensei Ai logo"></a>
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="15%" height="0" alt="space">
   <a href="https://docs.ultralytics.com/integrations/weights-biases/">
     <img src="https://github.com/ultralytics/assets/raw/main/partners/logo-wb.png" width="10%" alt="Weights & Biases logo"></a>
