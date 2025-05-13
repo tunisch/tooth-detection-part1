@@ -308,7 +308,7 @@ Get started quickly with our pre-configured environments. Click the icons below 
 ## 📜 License
 
 - **AGPL-3.0 License**: An [OSI-approved](https://opensource.org/license/agpl-v3) open-source license ideal for academic research, personal projects, and testing. It promotes open collaboration and knowledge sharing. See the [LICENSE](https://github.com/ultralytics/yolov5/blob/master/LICENSE) file for details.
-- 
+  
 ## 📧 Contact
 
 For bug reports and feature requests related to YOLOv5, please visit [GitHub Issues](https://github.com/ultralytics/yolov5/issues). For general questions, discussions, and community support, join our [Discord server](https://discord.com/invite/ultralytics)!
