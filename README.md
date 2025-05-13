@@ -1,69 +1,23 @@
 <div align="center">
-  <p>
-    <a href="https://www.ultralytics.com/blog/all-you-need-to-know-about-ultralytics-yolo11-and-its-applications" target="_blank">
-      <img width="100%" src="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png" alt="Ultralytics YOLO banner"></a>
-  </p>
-
-[中文](https://docs.ultralytics.com/zh) | [한국어](https://docs.ultralytics.com/ko) | [日本語](https://docs.ultralytics.com/ja) | [Русский](https://docs.ultralytics.com/ru) | [Deutsch](https://docs.ultralytics.com/de) | [Français](https://docs.ultralytics.com/fr) | [Español](https://docs.ultralytics.com/es) | [Português](https://docs.ultralytics.com/pt) | [Türkçe](https://docs.ultralytics.com/tr) | [Tiếng Việt](https://docs.ultralytics.com/vi) | [العربية](https://docs.ultralytics.com/ar)
+  <a href="https://ultralytics.com/yolo" target="_blank">
+    <img width="1024" src="https://raw.githubusercontent.com/ultralytics/assets/main/yolov5/v70/splash.png">
+  </a>
 
 <div>
-    <a href="https://github.com/ultralytics/yolov5/actions/workflows/ci-testing.yml"><img src="https://github.com/ultralytics/yolov5/actions/workflows/ci-testing.yml/badge.svg" alt="YOLOv5 CI Testing"></a>
-    <a href="https://zenodo.org/badge/latestdoi/264818686"><img src="https://zenodo.org/badge/264818686.svg" alt="YOLOv5 Citation"></a>
-    <a href="https://hub.docker.com/r/ultralytics/yolov5"><img src="https://img.shields.io/docker/pulls/ultralytics/yolov5?logo=docker" alt="Docker Pulls"></a>
-    <a href="https://discord.com/invite/ultralytics"><img alt="Discord" src="https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue"></a> <a href="https://community.ultralytics.com/"><img alt="Ultralytics Forums" src="https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue"></a> <a href="https://reddit.com/r/ultralytics"><img alt="Ultralytics Reddit" src="https://img.shields.io/reddit/subreddit-subscribers/ultralytics?style=flat&logo=reddit&logoColor=white&label=Reddit&color=blue"></a>
-    <br>
-    <a href="https://bit.ly/yolov5-paperspace-notebook"><img src="https://assets.paperspace.io/img/gradient-badge.svg" alt="Run on Gradient"></a>
-    <a href="https://colab.research.google.com/github/ultralytics/yolov5/blob/master/tutorial.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
-    <a href="https://www.kaggle.com/models/ultralytics/yolov5"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open In Kaggle"></a>
+    <a href="#"><img src="https://img.shields.io/github/stars/tunisch/tooth-detection-and-numbering?style=social" alt="GitHub Stars"></a>
   </div>
   <br>
 
-Ultralytics YOLOv5 🚀 is a cutting-edge, state-of-the-art (SOTA) computer vision model developed by [Ultralytics](https://www.ultralytics.com/). Based on the [PyTorch](https://pytorch.org/) framework, YOLOv5 is renowned for its ease of use, speed, and accuracy. It incorporates insights and best practices from extensive research and development, making it a popular choice for a wide range of vision AI tasks, including [object detection](https://docs.ultralytics.com/tasks/detect/), [image segmentation](https://docs.ultralytics.com/tasks/segment/), and [image classification](https://docs.ultralytics.com/tasks/classify/).
-
-We hope the resources here help you get the most out of YOLOv5. Please browse the [YOLOv5 Docs](https://docs.ultralytics.com/yolov5/) for detailed information, raise an issue on [GitHub](https://github.com/ultralytics/yolov5/issues/new/choose) for support, and join our [Discord community](https://discord.com/invite/ultralytics) for questions and discussions!
-
-To request an Enterprise License, please complete the form at [Ultralytics Licensing](https://www.ultralytics.com/license).
-
-<div align="center">
-  <a href="https://github.com/ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-github.png" width="2%" alt="Ultralytics GitHub"></a>
-  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="2%" alt="space">
-  <a href="https://www.linkedin.com/company/ultralytics/"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-linkedin.png" width="2%" alt="Ultralytics LinkedIn"></a>
-  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="2%" alt="space">
-  <a href="https://twitter.com/ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-twitter.png" width="2%" alt="Ultralytics Twitter"></a>
-  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="2%" alt="space">
-  <a href="https://youtube.com/ultralytics?sub_confirmation=1"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-youtube.png" width="2%" alt="Ultralytics YouTube"></a>
-  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="2%" alt="space">
-  <a href="https://www.tiktok.com/@ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-tiktok.png" width="2%" alt="Ultralytics TikTok"></a>
-  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="2%" alt="space">
-  <a href="https://ultralytics.com/bilibili"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-bilibili.png" width="2%" alt="Ultralytics BiliBili"></a>
-  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="2%" alt="space">
-  <a href="https://discord.com/invite/ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-discord.png" width="2%" alt="Ultralytics Discord"></a>
-</div>
+**Tooth Detection and Numbering from Panoramic Radiography Using Artificial Neural Networks** 🚀  
+This repository contains the source code and resources for detecting and numbering teeth from panoramic radiography images. Developed as a graduate project at **T.C. Maltepe University**.
 
 </div>
 <br>
 
-## 🚀 YOLO11: The Next Evolution
-
-We are excited to announce the launch of **Ultralytics YOLO11** 🚀, the latest advancement in our state-of-the-art (SOTA) vision models! Available now at the [Ultralytics YOLO GitHub repository](https://github.com/ultralytics/ultralytics), YOLO11 builds on our legacy of speed, precision, and ease of use. Whether you're tackling [object detection](https://docs.ultralytics.com/tasks/detect/), [instance segmentation](https://docs.ultralytics.com/tasks/segment/), [pose estimation](https://docs.ultralytics.com/tasks/pose/), [image classification](https://docs.ultralytics.com/tasks/classify/), or [oriented object detection (OBB)](https://docs.ultralytics.com/tasks/obb/), YOLO11 delivers the performance and versatility needed to excel in diverse applications.
-
-Get started today and unlock the full potential of YOLO11! Visit the [Ultralytics Docs](https://docs.ultralytics.com/) for comprehensive guides and resources:
-
-[![PyPI version](https://badge.fury.io/py/ultralytics.svg)](https://badge.fury.io/py/ultralytics) [![Downloads](https://static.pepy.tech/badge/ultralytics)](https://www.pepy.tech/projects/ultralytics)
-
-```bash
-# Install the ultralytics package
-pip install ultralytics
-```
-
-<div align="center">
-  <a href="https://www.ultralytics.com/yolo" target="_blank">
-  <img width="100%" src="https://raw.githubusercontent.com/ultralytics/assets/refs/heads/main/yolo/performance-comparison.png" alt="Ultralytics YOLO Performance Comparison"></a>
-</div>
 
 ## 📚 Documentation
 
-See the [YOLOv5 Docs](https://docs.ultralytics.com/yolov5/) for full documentation on training, testing, and deployment. See below for quickstart examples.
+See See below for detailed information on setup, training, testing, and usage. See below for quickstart examples.
 
 <details open>
 <summary>Install</summary>
@@ -72,7 +26,7 @@ Clone the repository and install dependencies in a [**Python>=3.8.0**](https://w
 
 ```bash
 # Clone the YOLOv5 repository
-git clone https://github.com/ultralytics/yolov5
+git clone https://github.com/tunisch/tooth-detection-and-numbering
 
 # Navigate to the cloned directory
 cd yolov5
@@ -91,11 +45,11 @@ Use YOLOv5 via [PyTorch Hub](https://docs.ultralytics.com/yolov5/tutorials/pytor
 ```python
 import torch
 
-# Load a YOLOv5 model (options: yolov5n, yolov5s, yolov5m, yolov5l, yolov5x)
-model = torch.hub.load("ultralytics/yolov5", "yolov5s")  # Default: yolov5s
+# Load the trained model for tooth detection and numbering
+model = torch.hub.load("ultralytics/yolov5", "custom", path="path/to/your_trained_model.pt")  # Replace with your trained model path
 
 # Define the input image source (URL, local file, PIL image, OpenCV frame, numpy array, or list)
-img = "https://ultralytics.com/images/zidane.jpg"  # Example image
+img = "path/to/your/test_image.jpg"  # Replace with the path to your test image
 
 # Perform inference (handles batching, resizing, normalization automatically)
 results = model(img)
@@ -114,45 +68,30 @@ results.save()  # Save results to runs/detect/exp
 The `detect.py` script runs inference on various sources. It automatically downloads [models](https://github.com/ultralytics/yolov5/tree/master/models) from the latest YOLOv5 [release](https://github.com/ultralytics/yolov5/releases) and saves the results to the `runs/detect` directory.
 
 ```bash
-# Run inference using a webcam
-python detect.py --weights yolov5s.pt --source 0
 
-# Run inference on a local image file
-python detect.py --weights yolov5s.pt --source img.jpg
-
-# Run inference on a local video file
-python detect.py --weights yolov5s.pt --source vid.mp4
-
-# Run inference on a screen capture
-python detect.py --weights yolov5s.pt --source screen
-
-# Run inference on a directory of images
-python detect.py --weights yolov5s.pt --source path/to/images/
+# Run inference on an image or directory
+python detect.py --weights best_model.pt --source data/test_images/
 
 # Run inference on a text file listing image paths
 python detect.py --weights yolov5s.pt --source list.txt
-
-# Run inference on a text file listing stream URLs
-python detect.py --weights yolov5s.pt --source list.streams
-
-# Run inference using a glob pattern for images
-python detect.py --weights yolov5s.pt --source 'path/to/*.jpg'
-
-# Run inference on a YouTube video URL
-python detect.py --weights yolov5s.pt --source 'https://youtu.be/LNwODJXcvt4'
-
-# Run inference on an RTSP, RTMP, or HTTP stream
-python detect.py --weights yolov5s.pt --source 'rtsp://example.com/media.mp4'
-```
 
 </details>
 
 <details>
 <summary>Training</summary>
 
-The commands below demonstrate how to reproduce YOLOv5 [COCO dataset](https://docs.ultralytics.com/datasets/detect/coco/) results. Both [models](https://github.com/ultralytics/yolov5/tree/master/models) and [datasets](https://github.com/ultralytics/yolov5/tree/master/data) are downloaded automatically from the latest YOLOv5 [release](https://github.com/ultralytics/yolov5/releases). Training times for YOLOv5n/s/m/l/x are approximately 1/2/4/6/8 days on a single [NVIDIA V100 GPU](https://www.nvidia.com/en-us/data-center/v100/). Using [Multi-GPU training](https://docs.ultralytics.com/yolov5/tutorials/multi_gpu_training/) can significantly reduce training time. Use the largest `--batch-size` your hardware allows, or use `--batch-size -1` for YOLOv5 [AutoBatch](https://github.com/ultralytics/yolov5/pull/5092). The batch sizes shown below are for V100-16GB GPUs.
+The commands below demonstrate how to reproduce YOLOv5 [COCO dataset](https://docs.ultralytics.com/datasets/detect/coco/) results.
+Both [models](https://github.com/ultralytics/yolov5/tree/master/models)
+and [datasets](https://github.com/ultralytics/yolov5/tree/master/data) are downloaded automatically from the latest YOLOv5 [release](https://github.com/ultralytics/yolov5/releases).
+Training times for YOLOv5n/s/m/l/x are approximately 1/2/4/6/8 days on a single [NVIDIA V100 GPU](https://www.nvidia.com/en-us/data-center/v100/).
+Using [Multi-GPU training](https://docs.ultralytics.com/yolov5/tutorials/multi_gpu_training/) can significantly reduce training time.
+Use the largest `--batch-size` your hardware allows, or use `--batch-size -1` for YOLOv5 [AutoBatch](https://github.com/ultralytics/yolov5/pull/5092).
+The batch sizes shown below are for V100-16GB GPUs.
 
 ```bash
+# Train the model on your dataset
+python train.py --data data/dataset.yaml --epochs 100 --weights '' --cfg yolov5s.pt --batch-size 16
+
 # Train YOLOv5n on COCO for 300 epochs
 python train.py --data coco.yaml --epochs 300 --weights '' --cfg yolov5n.yaml --batch-size 128
 
@@ -206,8 +145,9 @@ Our key integrations with leading AI platforms extend the functionality of Ultra
 <br>
 
 <div align="center">
-  <a href="https://www.ultralytics.com/hub">
-    <img src="https://github.com/ultralytics/assets/raw/main/partners/logo-ultralytics-hub.png" width="10%" alt="Ultralytics HUB logo"></a>
+  <a href="https://www.makesense.ai/">
+    <img src="![image](https://github.com/user-attachments/assets/6d6bfaab-87da-4e4d-ae3f-5122a612b9b4)
+" width="10%" alt="space"></a>
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="15%" height="0" alt="space">
   <a href="https://docs.ultralytics.com/integrations/weights-biases/">
     <img src="https://github.com/ultralytics/assets/raw/main/partners/logo-wb.png" width="10%" alt="Weights & Biases logo"></a>
@@ -278,89 +218,7 @@ This table shows the performance metrics for various YOLOv5 models trained on th
 
 </details>
 
-## 🖼️ Segmentation
 
-The YOLOv5 [release v7.0](https://github.com/ultralytics/yolov5/releases/v7.0) introduced [instance segmentation](https://docs.ultralytics.com/tasks/segment/) models that achieve state-of-the-art performance. These models are designed for easy training, validation, and deployment. For full details, see the [Release Notes](https://github.com/ultralytics/yolov5/releases/v7.0) and explore the [YOLOv5 Segmentation Colab Notebook](https://github.com/ultralytics/yolov5/blob/master/segment/tutorial.ipynb) for quickstart examples.
-
-<details>
-  <summary>Segmentation Checkpoints</summary>
-
-<div align="center">
-<a align="center" href="https://www.ultralytics.com/yolo" target="_blank">
-<img width="800" src="https://user-images.githubusercontent.com/61612323/204180385-84f3aca9-a5e9-43d8-a617-dda7ca12e54a.png" alt="YOLOv5 Segmentation Performance Chart"></a>
-</div>
-
-YOLOv5 segmentation models were trained on the [COCO dataset](https://docs.ultralytics.com/datasets/segment/coco/) for 300 epochs at an image size of 640 pixels using A100 GPUs. Models were exported to [ONNX](https://onnx.ai/) FP32 for CPU speed tests and [TensorRT](https://developer.nvidia.com/tensorrt) FP16 for GPU speed tests. All speed tests were conducted on Google [Colab Pro](https://colab.research.google.com/signup) notebooks for reproducibility.
-
-| Model                                                                                      | Size<br><sup>(pixels) | mAP<sup>box<br>50-95 | mAP<sup>mask<br>50-95 | Train Time<br><sup>300 epochs<br>A100 (hours) | Speed<br><sup>ONNX CPU<br>(ms) | Speed<br><sup>TRT A100<br>(ms) | Params<br><sup>(M) | FLOPs<br><sup>@640 (B) |
-| ------------------------------------------------------------------------------------------ | --------------------- | -------------------- | --------------------- | --------------------------------------------- | ------------------------------ | ------------------------------ | ------------------ | ---------------------- |
-| [YOLOv5n-seg](https://github.com/ultralytics/yolov5/releases/download/v7.0/yolov5n-seg.pt) | 640                   | 27.6                 | 23.4                  | 80:17                                         | **62.7**                       | **1.2**                        | **2.0**            | **7.1**                |
-| [YOLOv5s-seg](https://github.com/ultralytics/yolov5/releases/download/v7.0/yolov5s-seg.pt) | 640                   | 37.6                 | 31.7                  | 88:16                                         | 173.3                          | 1.4                            | 7.6                | 26.4                   |
-| [YOLOv5m-seg](https://github.com/ultralytics/yolov5/releases/download/v7.0/yolov5m-seg.pt) | 640                   | 45.0                 | 37.1                  | 108:36                                        | 427.0                          | 2.2                            | 22.0               | 70.8                   |
-| [YOLOv5l-seg](https://github.com/ultralytics/yolov5/releases/download/v7.0/yolov5l-seg.pt) | 640                   | 49.0                 | 39.9                  | 66:43 (2x)                                    | 857.4                          | 2.9                            | 47.9               | 147.7                  |
-| [YOLOv5x-seg](https://github.com/ultralytics/yolov5/releases/download/v7.0/yolov5x-seg.pt) | 640                   | **50.7**             | **41.4**              | 62:56 (3x)                                    | 1579.2                         | 4.5                            | 88.8               | 265.7                  |
-
-- All checkpoints were trained for 300 epochs using the SGD optimizer with `lr0=0.01` and `weight_decay=5e-5` at an image size of 640 pixels, using default settings.<br>Training runs are logged at [https://wandb.ai/glenn-jocher/YOLOv5_v70_official](https://wandb.ai/glenn-jocher/YOLOv5_v70_official).
-- **Accuracy** values represent single-model, single-scale performance on the COCO dataset.<br>Reproduce using: `python segment/val.py --data coco.yaml --weights yolov5s-seg.pt`
-- **Speed** metrics are averaged over 100 inference images using a [Colab Pro A100 High-RAM instance](https://colab.research.google.com/signup). Values indicate inference speed only (NMS adds approximately 1ms per image).<br>Reproduce using: `python segment/val.py --data coco.yaml --weights yolov5s-seg.pt --batch 1`
-- **Export** to ONNX (FP32) and TensorRT (FP16) was performed using `export.py`.<br>Reproduce using: `python export.py --weights yolov5s-seg.pt --include engine --device 0 --half`
-
-</details>
-
-<details>
-  <summary>Segmentation Usage Examples &nbsp;<a href="https://colab.research.google.com/github/ultralytics/yolov5/blob/master/segment/tutorial.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></summary>
-
-### Train
-
-YOLOv5 segmentation training supports automatic download of the [COCO128-seg dataset](https://docs.ultralytics.com/datasets/segment/coco8-seg/) via the `--data coco128-seg.yaml` argument. For the full [COCO-segments dataset](https://docs.ultralytics.com/datasets/segment/coco/), download it manually using `bash data/scripts/get_coco.sh --train --val --segments` and then train with `python train.py --data coco.yaml`.
-
-```bash
-# Train on a single GPU
-python segment/train.py --data coco128-seg.yaml --weights yolov5s-seg.pt --img 640
-
-# Train using Multi-GPU Distributed Data Parallel (DDP)
-python -m torch.distributed.run --nproc_per_node 4 --master_port 1 segment/train.py --data coco128-seg.yaml --weights yolov5s-seg.pt --img 640 --device 0,1,2,3
-```
-
-### Val
-
-Validate the mask [mean Average Precision (mAP)](https://www.ultralytics.com/glossary/mean-average-precision-map) of YOLOv5s-seg on the COCO dataset:
-
-```bash
-# Download COCO validation segments split (780MB, 5000 images)
-bash data/scripts/get_coco.sh --val --segments
-
-# Validate the model
-python segment/val.py --weights yolov5s-seg.pt --data coco.yaml --img 640
-```
-
-### Predict
-
-Use the pretrained YOLOv5m-seg.pt model to perform segmentation on `bus.jpg`:
-
-```bash
-# Run prediction
-python segment/predict.py --weights yolov5m-seg.pt --source data/images/bus.jpg
-```
-
-```python
-# Load model from PyTorch Hub (Note: Inference support might vary)
-model = torch.hub.load("ultralytics/yolov5", "custom", "yolov5m-seg.pt")
-```
-
-| ![Zidane Segmentation Example](https://user-images.githubusercontent.com/26833433/203113421-decef4c4-183d-4a0a-a6c2-6435b33bc5d3.jpg) | ![Bus Segmentation Example](https://user-images.githubusercontent.com/26833433/203113416-11fe0025-69f7-4874-a0a6-65d0bfe2999a.jpg) |
-| :-----------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------: |
-
-### Export
-
-Export the YOLOv5s-seg model to ONNX and TensorRT formats:
-
-```bash
-# Export model
-python export.py --weights yolov5s-seg.pt --include onnx engine --img 640 --device 0
-```
-
-</details>
 
 ## 🏷️ Classification
 
@@ -478,11 +336,6 @@ Get started quickly with our pre-configured environments. Click the icons below 
     <img src="https://github.com/ultralytics/assets/releases/download/v0.0.0/logo-gcp-small.png" width="10%" /></a>
 </div>
 
-## 🤝 Contribute
-
-We welcome your contributions! Making YOLOv5 accessible and effective is a community effort. Please see our [Contributing Guide](https://docs.ultralytics.com/help/contributing/) to get started. Share your feedback through the [YOLOv5 Survey](https://www.ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). Thank you to all our contributors for making YOLOv5 better!
-
-[![Ultralytics open-source contributors](https://raw.githubusercontent.com/ultralytics/assets/main/im/image-contributors.png)](https://github.com/ultralytics/yolov5/graphs/contributors)
 
 ## 📜 License
 
