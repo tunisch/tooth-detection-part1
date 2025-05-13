@@ -3,23 +3,13 @@
     <img width="1024" src="https://raw.githubusercontent.com/ultralytics/assets/main/yolov5/v70/splash.png">
   </a>
 
-[中文](https://docs.ultralytics.com/zh) | [한국어](https://docs.ultralytics.com/ko) | [日本語](https://docs.ultralytics.com/ja) | [Русский](https://docs.ultralytics.com/ru) | [Deutsch](https://docs.ultralytics.com/de) | [Français](https://docs.ultralytics.com/fr) | [Español](https://docs.ultralytics.com/es) | [Português](https://docs.ultralytics.com/pt) | [Türkçe](https://docs.ultralytics.com/tr) | [Tiếng Việt](https://docs.ultralytics.com/vi) | [العربية](https://docs.ultralytics.com/ar)
-
 <div>
-    <a href="https://github.com/ultralytics/yolov5/actions/workflows/ci-testing.yml"><img src="https://github.com/ultralytics/yolov5/actions/workflows/ci-testing.yml/badge.svg" alt="YOLOv5 CI Testing"></a>
-    <a href="https://zenodo.org/badge/latestdoi/264818686"><img src="https://zenodo.org/badge/264818686.svg" alt="YOLOv5 Citation"></a>
-    <a href="https://hub.docker.com/r/ultralytics/yolov5"><img src="https://img.shields.io/docker/pulls/ultralytics/yolov5?logo=docker" alt="Docker Pulls"></a>
-    <a href="https://discord.com/invite/ultralytics"><img alt="Discord" src="https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue"></a> <a href="https://community.ultralytics.com/"><img alt="Ultralytics Forums" src="https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue"></a> <a href="https://reddit.com/r/ultralytics"><img alt="Ultralytics Reddit" src="https://img.shields.io/reddit/subreddit-subscribers/ultralytics?style=flat&logo=reddit&logoColor=white&label=Reddit&color=blue"></a>
-    <br>
-    <a href="https://bit.ly/yolov5-paperspace-notebook"><img src="https://assets.paperspace.io/img/gradient-badge.svg" alt="Run on Gradient"></a>
-    <a href="https://colab.research.google.com/github/ultralytics/yolov5/blob/master/tutorial.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
-    <a href="https://www.kaggle.com/models/ultralytics/yolov5"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open In Kaggle"></a>
+    <a href="#"><img src="https://img.shields.io/github/stars/tunisch/tooth-detection-and-numbering?style=social" alt="GitHub Stars"></a>
   </div>
   <br>
 
-Ultralytics YOLOv5 🚀 is a cutting-edge, state-of-the-art (SOTA) computer vision model developed by [Ultralytics](https://www.ultralytics.com/). Based on the [PyTorch](https://pytorch.org/) framework, YOLOv5 is renowned for its ease of use, speed, and accuracy. It incorporates insights and best practices from extensive research and development, making it a popular choice for a wide range of vision AI tasks, including [object detection](https://docs.ultralytics.com/tasks/detect/), [image segmentation](https://docs.ultralytics.com/tasks/segment/), and [image classification](https://docs.ultralytics.com/tasks/classify/).
-
-We hope the resources here help you get the most out of YOLOv5. Please browse the [YOLOv5 Docs](https://docs.ultralytics.com/yolov5/) for detailed information, raise an issue on [GitHub](https://github.com/ultralytics/yolov5/issues/new/choose) for support. 
+**Tooth Detection and Numbering from Panoramic Radiography Using Artificial Neural Networks** 🚀  
+This repository contains the source code and resources for detecting and numbering teeth from panoramic radiography images. Developed as a graduate project at **T.C. Maltepe University**.
 
 </div>
 <br>
@@ -27,7 +17,7 @@ We hope the resources here help you get the most out of YOLOv5. Please browse th
 
 ## 📚 Documentation
 
-See the [YOLOv5 Docs](https://docs.ultralytics.com/yolov5/) for full documentation on training, testing, and deployment. See below for quickstart examples.
+See See below for detailed information on setup, training, testing, and usage. See below for quickstart examples.
 
 <details open>
 <summary>Install</summary>
@@ -36,7 +26,7 @@ Clone the repository and install dependencies in a [**Python>=3.8.0**](https://w
 
 ```bash
 # Clone the YOLOv5 repository
-git clone https://github.com/ultralytics/yolov5
+git clone https://github.com/tunisch/tooth-detection-and-numbering
 
 # Navigate to the cloned directory
 cd yolov5
@@ -55,11 +45,11 @@ Use YOLOv5 via [PyTorch Hub](https://docs.ultralytics.com/yolov5/tutorials/pytor
 ```python
 import torch
 
-# Load a YOLOv5 model (options: yolov5n, yolov5s, yolov5m, yolov5l, yolov5x)
-model = torch.hub.load("ultralytics/yolov5", "yolov5s")  # Default: yolov5s
+# Load the trained model for tooth detection and numbering
+model = torch.hub.load("ultralytics/yolov5", "custom", path="path/to/your_trained_model.pt")  # Replace with your trained model path
 
 # Define the input image source (URL, local file, PIL image, OpenCV frame, numpy array, or list)
-img = "https://ultralytics.com/images/dental.jpg"  # Example image
+img = "path/to/your/test_image.jpg"  # Replace with the path to your test image
 
 # Perform inference (handles batching, resizing, normalization automatically)
 results = model(img)
@@ -79,12 +69,11 @@ The `detect.py` script runs inference on various sources. It automatically downl
 
 ```bash
 
-# Run inference on a directory of images
-python detect.py --weights yolov5s.pt --source path/to/images/
+# Run inference on an image or directory
+python detect.py --weights best_model.pt --source data/test_images/
 
 # Run inference on a text file listing image paths
 python detect.py --weights yolov5s.pt --source list.txt
-
 
 </details>
 
@@ -94,6 +83,9 @@ python detect.py --weights yolov5s.pt --source list.txt
 The commands below demonstrate how to reproduce YOLOv5 [COCO dataset](https://docs.ultralytics.com/datasets/detect/coco/) results. Both [models](https://github.com/ultralytics/yolov5/tree/master/models) and [datasets](https://github.com/ultralytics/yolov5/tree/master/data) are downloaded automatically from the latest YOLOv5 [release](https://github.com/ultralytics/yolov5/releases). Training times for YOLOv5n/s/m/l/x are approximately 1/2/4/6/8 days on a single [NVIDIA V100 GPU](https://www.nvidia.com/en-us/data-center/v100/). Using [Multi-GPU training](https://docs.ultralytics.com/yolov5/tutorials/multi_gpu_training/) can significantly reduce training time. Use the largest `--batch-size` your hardware allows, or use `--batch-size -1` for YOLOv5 [AutoBatch](https://github.com/ultralytics/yolov5/pull/5092). The batch sizes shown below are for V100-16GB GPUs.
 
 ```bash
+# Train the model on your dataset
+python train.py --data data/dataset.yaml --epochs 100 --weights '' --cfg yolov5s.pt --batch-size 16
+
 # Train YOLOv5n on COCO for 300 epochs
 python train.py --data coco.yaml --epochs 300 --weights '' --cfg yolov5n.yaml --batch-size 128
 
