@@ -88,7 +88,7 @@ Using [Multi-GPU training](https://docs.ultralytics.com/yolov5/tutorials/multi_g
 Use the largest `--batch-size` your hardware allows, or use `--batch-size -1` for YOLOv5 [AutoBatch](https://github.com/ultralytics/yolov5/pull/5092).
 The batch sizes shown below are for V100-16GB GPUs.
 
-```bash
+
 # Train the model on your dataset
 python train.py --data data/dataset.yaml --epochs 100 --weights '' --cfg yolov5s.pt --batch-size 16
 
